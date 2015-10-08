@@ -6,7 +6,7 @@ Neuron Solver:
 
 Each node of TSP is a neuron with certain number of connections.
 
-Each node tries to find closest neighbors by querying their connections. Queries with certain depth are possible.
+Each node tries to connect to closest neighbors by querying its connections. Queries with certain depth are possible.
 
 Matrix Solver:
 
