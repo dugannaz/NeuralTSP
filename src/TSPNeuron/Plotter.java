@@ -11,6 +11,7 @@ public class Plotter {
     this.canvas = new TSPCanvas(parent);
     this.frame.setSize(500,500);
     this.frame.add(this.canvas);
+    this.frame.setTitle("Neuron Solver");
     frame.setVisible(true);
   }
 }

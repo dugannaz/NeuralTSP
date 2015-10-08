@@ -7,11 +7,13 @@ public class Util {
     System.arraycopy(array, 0, resized, 0, array.length);
     return resized;
   }
+  
   public static double[] resize(double[] array, int newSize) {
     double resized[] = new double[newSize];
     System.arraycopy(array, 0, resized, 0, array.length);
     return resized;
   }
+  
   public static double calculateDistance(Neuron a,Neuron b) {
     double dist;
     dist = Math.sqrt(Math.pow(a.position.x - b.position.x, 2)
